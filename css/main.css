@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/*CSS Doc*/
+
+.hidden
+{
+	display: none;
+}
+
+#siteContainer {
+	width: 1080px;
+	height: 1400px;
+	background-color: #000;
+	margin: 0 auto;
+}
+
+#mainHeader {
+	display:flex;
+	flex-direction: row;
+	text-decoration: none;
+}
+
+.title {
+	font-size: 60px;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #fff;
+	padding: 25px;
+	margin: 0 auto;
+}
+
+#remoteTop1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 30px;
+}
+
+#remoteTop1 img{
+	width: 300px;
+	height: 200px;
+}
+
+.guide:active, .menu:active {
+	position: relative;
+	top:5px;
+}
+
+#remoteTop2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 30px;
+}
+
+#remoteTop2 img{
+	width: 300px;
+	height: 200px;
+}
+
+.back:active, .exit:active {
+	position: relative;
+	top:5px;
+}
+
+#remoteBottom1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 30px;
+}
+
+#remoteBottom1 img{
+	width: 200px;
+	height: 200px;
+}
+
+#remoteBottom1:active {
+	position: relative;
+	top:5px;
+}
+
+#remoteBottom2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 30px;
+}
+
+#remoteBottom2 img{
+	width: 200px;
+	height: 200px;
+}
+
+.rewind:active,.pause:active, .play:active, .fast-forward:active {
+	position: relative;
+	top:5px;
+}
+
+#remoteBottom3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 30px;
+}
+
+#remoteBottom3 img{
+	width: 200px;
+	height: 200px;
+}
+
+#remoteBottom3:active {
+	position: relative;
+	top:5px;
+}
