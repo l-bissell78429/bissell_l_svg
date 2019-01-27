@@ -1,9 +1,128 @@
-.image-wrapper {
-	width: 45%;
-	display: inline-block;
+/*/*@charset "UTF-8";
+/*CSS Doc*/
+
+.hidden
+{
+	display: none;
 }
 
-img {
-	width: 100%;
-	display: block;
+#siteContainer {
+	width: 1080px;
+	height: 1400px;
+	background-color: #000;
+	margin: 0 auto;
+}
+
+#mainHeader {
+	display:flex;
+	flex-direction: row;
+	text-decoration: none;
+}
+
+#mainHeader .title {
+	font-size: 60px;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #fff;
+	padding: 25px;
+	margin: 0 auto;
+}
+
+#remoteTop {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+#music_button {
+	width: 170px;
+	height: 170px;
+}
+
+#music-note:hover {
+	fill: #ff0000;
+}
+
+#power-button {
+	width: 170px;
+	height: 170px;
+}
+
+#power-icon:hover {
+	fill: #ff0000;
+}
+
+#TV-button {
+	width: 170px;
+	height: 170px;
+}
+
+#TV-icon:hover {
+	fill: #ff0000;
+}
+
+#rewind_button {
+	width: 170px;
+	height: 170px;
+}
+
+#rewind_icon:hover {
+	fill: #ff0000;
+}
+
+#pause_button {
+	width: 170px;
+	height: 170px;
+}
+
+#pause_icon:hover {
+	fill: #ff0000;
+}
+
+#remoteBottom {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 30px;
+}
+
+#play_button {
+	width: 170px;
+	height: 170px;
+}
+
+#play_icon:hover {
+	fill: #ff0000;
+}
+
+#fast-forward_button {
+	width: 170px;
+	height: 170px;
+}
+
+#fast-forward_icon:hover {
+	fill: #ff0000;
+}
+
+#back-button {
+	width: 170px;
+	height: 170px;
+}
+
+#stop_button {
+	width: 170px;
+	height: 170px;
+}
+
+#stop_icon:hover {
+	fill: #ff0000;
+}
+
+#forward-button {
+	width: 170px;
+	height: 170px;
+}
+
+#back-icon:hover {
+	fill: #ff0000;
 }
