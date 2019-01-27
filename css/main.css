@@ -1,4 +1,4 @@
-@charset "UTF-8";
+/*/*@charset "UTF-8";
 /*CSS Doc*/
 
 .hidden
@@ -19,7 +19,7 @@
 	text-decoration: none;
 }
 
-.title {
+#mainHeader .title {
 	font-size: 60px;
 	font-weight: bold;
 	font-family: Helvetica, Arial, sans-serif;
@@ -28,92 +28,101 @@
 	margin: 0 auto;
 }
 
-#remoteTop1 {
-	display: flex;
+#remoteTop {
+	display:flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	font-family: Arial, Helvetica, sans-serif;
+}
+
+#music_button {
+	width: 170px;
+	height: 170px;
+}
+
+#music-note:hover {
+	fill: #ff0000;
+}
+
+#power-button {
+	width: 170px;
+	height: 170px;
+}
+
+#power-icon:hover {
+	fill: #ff0000;
+}
+
+#TV-button {
+	width: 170px;
+	height: 170px;
+}
+
+#TV-icon:hover {
+	fill: #ff0000;
+}
+
+#rewind_button {
+	width: 170px;
+	height: 170px;
+}
+
+#rewind_icon:hover {
+	fill: #ff0000;
+}
+
+#pause_button {
+	width: 170px;
+	height: 170px;
+}
+
+#pause_icon:hover {
+	fill: #ff0000;
+}
+
+#remoteBottom {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 	margin-top: 30px;
 }
 
-#remoteTop1 img{
-	width: 300px;
-	height: 200px;
+#play_button {
+	width: 170px;
+	height: 170px;
 }
 
-.guide:active, .menu:active {
-	position: relative;
-	top:5px;
+#play_icon:hover {
+	fill: #ff0000;
 }
 
-#remoteTop2 {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	font-family: Arial, Helvetica, sans-serif;
-	margin-top: 30px;
+#fast-forward_button {
+	width: 170px;
+	height: 170px;
 }
 
-#remoteTop2 img{
-	width: 300px;
-	height: 200px;
+#fast-forward_icon:hover {
+	fill: #ff0000;
 }
 
-.back:active, .exit:active {
-	position: relative;
-	top:5px;
+#back-button {
+	width: 170px;
+	height: 170px;
 }
 
-#remoteBottom1 {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	font-family: Arial, Helvetica, sans-serif;
-	margin-top: 30px;
+#stop_button {
+	width: 170px;
+	height: 170px;
 }
 
-#remoteBottom1 img{
-	width: 200px;
-	height: 200px;
+#stop_icon:hover {
+	fill: #ff0000;
 }
 
-#remoteBottom1:active {
-	position: relative;
-	top:5px;
+#forward-button {
+	width: 170px;
+	height: 170px;
 }
 
-#remoteBottom2 {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	font-family: Arial, Helvetica, sans-serif;
-	margin-top: 30px;
-}
-
-#remoteBottom2 img{
-	width: 200px;
-	height: 200px;
-}
-
-.rewind:active,.pause:active, .play:active, .fast-forward:active {
-	position: relative;
-	top:5px;
-}
-
-#remoteBottom3 {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	font-family: Arial, Helvetica, sans-serif;
-	margin-top: 30px;
-}
-
-#remoteBottom3 img{
-	width: 200px;
-	height: 200px;
-}
-
-#remoteBottom3:active {
-	position: relative;
-	top:5px;
+#back-icon:hover {
+	fill: #ff0000;
 }
